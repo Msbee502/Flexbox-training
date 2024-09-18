@@ -1,31 +1,40 @@
-body{
-    
+body {
+    margin: auto;
+    width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 header {
     margin: auto;
     width: 1400px;
     width: 100%;
-    
+
 }
+
 .nav-header {
     max-width: 1110px;
     width: 100%;
     margin: auto;
-    display: flex;    
-    justify-content: center;  
+    display: flex;
+    justify-content: center;
 }
 
-.logo{
-    width: 185px;   
+.logo {
+    width: 185px;
 }
-.ul-top{
-    list-style: none;  
-    display: flex;  
+
+.ul-top {
+    list-style: none;
+    display: flex;
     width: 100%;
     justify-content: space-around;
 }
-button{
+
+button {
     height: 40px;
-    width: 80px ;
-    
+    width: 80px;
+
 }
